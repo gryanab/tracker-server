@@ -11,6 +11,8 @@ def create_table():
     conn.commit()
     conn.close()
 
+# create_table()
+
 # def insert_data(name, age, gender):
 #     conn = psycopg2.connect(
 #         "dbname='tracker' user='postgres' host='localhost' port='5555'")
